@@ -1,0 +1,8 @@
+<div class="Container">
+    <h1>To-Do App!</h1>
+    <h5>Add new To-Do</h5>
+    <form (ngSubmit)="onSubmit(taskForm)" #taskForm = "ngForm">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter a new task!" required ngModel name="task">
+    <button type="submit" class="btn btn-outline-light">Add task</button>
+    </form>
+</div>
